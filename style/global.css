@@ -29,9 +29,23 @@
   --text-subtitle: 400 20px/120% var(--font-family-inconsolta);
 
   --title-md: 400 16px var(--font-family-maven);
-  --title-sm: 400 14px/140% var(--font-family-maven);  
+  --title-sm: 400 14px/140% var(--font-family-maven);
 }
 
 body {
-  font: var(--font-family);
+  font: var(--font-family-aspa);
+  color: var(--base-color-600);
+  background-image: url(../assets/Background_Intro.png);
+  background-size: cover;
+}
+
+.grid {
+  display: grid;
+  justify-items: center;
+  text-align: center;
+}
+
+.gap-16 {
+  display: flex;
+  gap: 16px;
 }

@@ -1,0 +1,99 @@
+#profile {
+  img {
+    place-self: auto;
+    width: 112px;
+    height: 112px;
+    object-fit: cover;
+    margin-bottom: 64px;
+    margin-top: 120px;
+  }
+
+  p {
+    color: var(--base-color-400);
+    width: 680px;
+    height: 40px;
+    margin-bottom: 80px;
+  }
+}
+
+h2 {
+  font: var( --text-subtitle);
+  color: var(--base-color-500);
+  width: 680px;
+  height: 24px;
+  margin-bottom: 8px;
+
+  span {
+    color: var(--color-red);
+  }
+}
+
+h1 {
+  font: var( --text-lg);
+  margin-bottom: 20px;
+}
+
+.flex {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  text-align: center;
+}
+
+.flex img {
+  box-sizing: border-box;
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+}
+
+.flex > div {
+  display: grid;
+  gap: 8px;
+  grid-template-columns: repeat(6, 1fr);
+  place-items: center;
+  padding: 8px 16px;
+}
+
+.base-color {
+  background-color: var(--base-color-300);
+  border-radius: 16px;
+  width: 114px;
+  height: 40px;
+  padding: 16x 8px;
+  
+}
+
+.github > img {
+  backface-visibility: var(--base-color-500);
+}
+
+.html  {
+  width: 105px;
+  height: 40px;
+}
+
+.css {
+  width: 92px;
+  height: 40px;
+}
+
+.js {
+  width: 138px;
+  height: 40px;
+}
+
+.react {
+  width: 106px;
+  height: 40px;
+}
+
+.node {
+  width: 119px;
+  height: 40px;
+}
+
+.seta {
+  margin: 94px;
+
+}
