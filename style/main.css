@@ -1,0 +1,53 @@
+main {
+  max-width: 1366px;
+  min-height: 917px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+main span {
+  color: var(--color-red);
+  font: var(--text-subtitle);
+}
+
+main h1 {
+  font: var(--text-md);
+   text-align: center;
+   margin-top: 8px;
+}
+
+main section {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+  place-content: center;
+  gap: 24px;
+  margin: 0 auto;
+  
+  max-width: 100%;
+
+  
+}
+
+main div > img {
+  object-fit: cover;
+  border-radius: 12px;
+  width: 100%;
+  height: auto;
+}
+
+.base-color-300 {
+  background-color: var(--base-color-300);
+  border-radius: 16px;
+  padding: 12px;
+}
+
+main h1 {
+ 
+}
+
+main p {
+  text-align: start;
+  font: var(--title-sm);
+}

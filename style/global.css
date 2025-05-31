@@ -35,8 +35,15 @@
 body {
   font: var(--font-family-aspa);
   color: var(--base-color-600);
-  background-image: url(../assets/Background_Intro.png);
+
+  background-image: url(../assets/Background_Contacts.png);
+  background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
+  min-height: 100vh;
+
+  margin: 0;
+  padding: 0;
 }
 
 .grid {
