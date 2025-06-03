@@ -1,0 +1,17 @@
+footer {
+  display: grid;
+  text-align: center;
+
+  div > h1 {
+    margin-bottom: 8px;
+  }
+}
+
+footer span {
+  color: var(--color-purple);
+  font: var(--text-subtitle);
+}
+footer p {
+  font: var(--title-md);
+  color: var(--base-color-500);
+}

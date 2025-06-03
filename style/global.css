@@ -56,3 +56,18 @@ body {
   display: flex;
   gap: 16px;
 }
+
+.title {
+  font: var(--text-md);
+  text-align: center;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+/* 
+.subtitle {
+  color: var(--color-red);
+  font: var(--text-subtitle);
+  text-align: center;
+  margin-top: 8px;
+  margin-bottom: 56px;
+} */
