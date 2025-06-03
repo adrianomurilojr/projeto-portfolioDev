@@ -15,6 +15,7 @@ main h1 {
   font: var(--text-md);
    text-align: center;
    margin-top: 8px;
+   margin-bottom: 56px;
 }
 
 main section {
@@ -23,11 +24,11 @@ main section {
   grid-template-columns: repeat(3, 1fr);
   place-content: center;
   gap: 24px;
-  margin: 0 auto;
-  
+  margin-inline: 120px;
+  margin-bottom: 144px;
+
   max-width: 100%;
 
-  
 }
 
 main div > img {
